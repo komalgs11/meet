@@ -74,6 +74,10 @@ Given user see the element list;
 when user opens the element list of events;
 Then the user should able to see the number of upcoming events in each city;
 
+# Use of serverless function in app
+- Meet app using serverless function because there is No backend maintenance,
+  easy to scale, always available, no cost for idle time.
+  
 
 
 
