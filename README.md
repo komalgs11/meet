@@ -2,7 +2,7 @@
 This is a progressive web application (PWA) with React using a test-driven development (TDD) technique.
 and it is a serverless application.
 
-# the Gherkin syntax (User's story)
+# The Gherkin syntax (User's story)
 
 # Feature 1: Filter Events By City
 ## SCENARIO 1: When user hasn’t searched for a specific city, show upcoming events from all cities.
