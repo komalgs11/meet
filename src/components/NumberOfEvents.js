@@ -1,4 +1,4 @@
-const NumberOfEvents = ({ setNumberOfEvents, setErrorAlert }) => {
+const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
   const handleInputChanged = (event) => {
     const value = event.target.value;
 
@@ -10,7 +10,7 @@ const NumberOfEvents = ({ setNumberOfEvents, setErrorAlert }) => {
       setErrorAlert("minimum value is 1");
     } else {
       setErrorAlert("");
-      setNumberOfEvents(value);
+      setCurrentNOE(value);
     }
   };
 
