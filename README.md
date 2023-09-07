@@ -23,29 +23,29 @@ and it is a serverless application.
 ## Feature 2: Show/Hide Event Details
 ### SCENARIO 1: An event element is collapsed by default.
 - Given user opens the page;
-- when a user opens the page list of elements is shown;
-- Then the user should be able to see the list of event elements.
+- When the user looks at the event elements;
+- Then each event element should be collapsed by default;
 
 ### SCENARIO 2: User can expand an event to see details.
-- Given user see the events;
-- when a user opens the element to expand that event;
-- Then the user should be able to interact with the information written inside the element.
+- Given a user is viewing a list of events;
+- When the user clicks on an event element;
+- Then the clicked event element should expand to reveal additional event details.
 
 ### SCENARIO 3: User can collapse an event to hide details.
-- Given user interact with the page;
-- when a user opens the event and reads the information;
-- Then the user should able to minimize the information by clicking on the button;
+- Given a user is viewing a list of events;
+- When the user clicks on an already expanded event element;
+- Then the user should able to hide the information by clicking on the button;
 
 ## Feature 3: Specify the Number of Events.
 
 ### SCENARIO 1: When a user hasn’t specified a number, 32 events are shown by default.
 - Given user hasn't entered the number;
-- when a user opens the app ;
-- Then he should be able to see 32 events are available as a default value.
+- When the user is viewing a list of events ;
+- Then the default value should be disply as 32 events are available.
 
 ### SCENARIO 2: The user can change the number of events displayed.
-- Given the user enter the number;
-- when a user enters the number to change the event number;
+- Given the user is viewing a list of events;
+- When a user enters the number to change the event displayed;
 - Then the user should be able to update the displayed event number;
 
 # Feature 4: Use the App When Offline
