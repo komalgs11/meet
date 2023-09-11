@@ -79,10 +79,9 @@ and it is a serverless application.
   easy to scale, always available, no cost for idle time.
   
 
+# A screenshot of the app.
 
-
-
-
+<img width="1439" alt="Screenshot 2023-09-11 at 20 03 07" src="https://github.com/komalgs11/meet/assets/126813272/cc05a241-9c3c-4719-824b-2c70459f9913">
 
 
 
